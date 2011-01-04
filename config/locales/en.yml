@@ -1,0 +1,45 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  sign_up: Sign up!
+  sign_in: Sign in!
+  time:
+    formats:
+      date_time24: "%Y-%m-%d %H:%M"
+  activerecord:
+    errors:
+      models:
+        property:
+          attributes:          
+            rooms:
+              blank: "required"
+            bathrooms:
+              blank: "required"
+            garage:
+              blank: "required"
+            building_use:
+              blank: "required"
+            building_type:
+              blank: "required"
+        user:
+          attributes:          
+            email:
+              blank: "required"
+            password:
+              blank: "required"
+        contract:
+          attributes:          
+            type_rent:
+              blank: "required"
+        address:
+          attributes:
+            street:
+              blank: "can't be blank"
+            number:
+              blank: "required"
+              not_a_number: "invalid number"
+            city:
+              blank: "can't be blank"
+            province:
+              blank: "required"

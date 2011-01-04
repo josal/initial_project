@@ -1,0 +1,22 @@
+My starting template for a basic rails project.
+
+- Haml
+- Devise (user, with admin flag)
+- SimpleForm
+- Compass (with fancybuttons, blueprint and multi-line-button)
+- Steak
+- Hoptoad
+- ActiveMerchant
+- DelayedJob (lessons learned!)
+- jquery (CDN)
+
+
+Pending gems:
+- jquerytools?
+- jquery validator?
+- mailchimp
+- railsadmin?
+- webapptheme
+- gettext vs I18n (last one is winner at the moment)
+- omniauth?
+- mongoid?

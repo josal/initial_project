@@ -1,0 +1,9 @@
+- if current_user
+  %p= "Usuario #{current_user.email} logado"
+- else
+  %p Home pública
+  %a.multi-line-button{:href => "#"}
+    %span.title
+      Producto
+    %span.subtitle
+      Precio y línea más larga

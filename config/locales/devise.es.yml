@@ -1,0 +1,46 @@
+en:
+  errors:
+    messages:
+      not_found: "no se ha encontrado"
+      already_confirmed: "ya ha sido confirmado"
+      not_locked: "no estaba bloqueado"
+      
+es:
+  devise:
+    failure:
+      unauthenticated: 'Debes entrar como usuario registrado antes de continuar.'
+      unconfirmed: 'Debes confirmar tu cuenta antes de continuar.'
+      locked: 'Tu cuenta está boqueada.'
+      invalid: 'El usuario y/o la contraseña son incorrectos.'
+      invalid_token: 'Token de autenticaticación incorrecto.'
+      timeout: 'Tu sesión ha caducado. Por favor, vuelve a ingresar.'
+      inactive: 'Tu cuenta todavía no ha sido activada.'
+    sessions:
+      link: 'Entrar'
+      signed_in: 'Has accedido correctamente.'
+      signed_out: 'Has salido correctamente, hasta pronto.'
+    passwords:
+      link: '¿Olvidaste tu contraseña?'
+      send_instructions: 'En unos minutos recibirás un email con las instrucciones de cómo redefinir tu contraseña.'
+      updated: 'Has cambiado correctamente tu contraseña. Automáticamente se ha iniciado tu sesión.'
+    confirmations:
+      link: "¿No has recibido las instrucciones de confirmación?"
+      send_instructions: 'En unos minutos recibirás un email con las instrucciones de cómo confirmar tu cuenta. '
+      confirmed: 'Tu cuenta ha sido confirmada correctamente. Automaticamente se ha iniciado tu sesión.'
+    registrations:
+      link: 'Registrarse'
+      signed_up: 'Te has registrado correctamente. Se ha enviado una confirmación a tu email. Revísalo por favor.'
+      updated: 'Actualizaste tu cuenta correctamente.'
+      destroyed: 'Adios! Has cancelado tu cuenta correctamente. Esperamos verte por aqui otra vez...'
+    unlocks:
+      link: "¿No has recibido las instrucciones de desbloqueo?"
+      send_instructions: 'En unos minutos recibirás un email con las instrucciones de cómo desbloquear tu cuenta.'
+      unlocked: 'Tu cuenta ha sido desbloqueada correctamente. Automaticamente se ha iniciado tu sesión'
+    mailer:
+      confirmation_instructions:
+        subject: 'Instrucciones de confirmación de tu cuenta'
+      reset_password_instructions:
+        subject: 'Instrucciones para cambiar la contraseña de tu cuenta'
+      unlock_instructions:
+        subject: 'Instrucciones de desbloqueo de tu cuenta'
+

@@ -1,0 +1,85 @@
+es:
+  sign_up: Regístrate
+  sign_in: Entra!
+
+  time:
+    formats:
+      default: "%d/%m/%Y"  
+      short: "%b %d"  
+      long: "%d de %B de %Y"  
+      date_time24: "%Y-%m-%d %H:%M"
+  date:  
+    formats:  
+      default: "%d/%m/%Y"  
+      short: "%b %d"  
+      long: "%d de %B de %Y"  
+    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+  activerecord:
+    errors:
+      models:
+        property:
+          attributes:          
+            rooms:
+              blank: "requerido"
+            bathrooms:
+              blank: "requerido"
+            garage:
+              blank: "requerido"
+            building_use:
+              blank: "requerido"
+            building_type:
+              blank: "requerido"
+        contract:
+          attributes:          
+            type_rent:
+              blank: "requerido"
+        user:
+          attributes:          
+            email:
+              blank: "requerido"
+              confirmation: "no coincide"
+              taken: "este email ya existe y pertenece a otro usuario"
+              invalid: "formato inválido"
+              not_found: "este correo no está registrado"
+            password:
+              blank: "requerido"
+              confirmation: "no coincide"
+              too_short: "demasiado corto"
+              too_long: "demasiado largo"              
+            password_confirmation:
+              blank: "requerido"
+            current_password:
+              blank: "requerido"
+              invalid: "esta no es tu clave"
+            first_name:
+              blank: "requerido"              
+            last_name:
+              blank: "requerido"
+        person:
+          attributes:
+            street:
+              blank: "requerido"
+            number:
+              blank: "requerido"
+              not_a_number: "número inválido"
+            post_code:
+              blank: "requerido"
+            city:
+              blank: "requerido"
+            province:
+              blank: "requerido"
+            country:
+              blank: "requerido"
+        address:
+          attributes:
+            street:
+              blank: "no puede estar vacío"
+            number:
+              blank: "requerido"
+              not_a_number: "número inválido"
+            post_code:
+              blank: "requerido"
+            city:
+              blank: "no puede estar vacío"
+            province:
+              blank: "requerido"
